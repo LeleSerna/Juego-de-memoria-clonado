@@ -7,20 +7,20 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(50, 119, 248);
+    background-image: url('Images/City.jpg');
     display: flex;
 }
 .board{
     height: 480px;
     width: 460px;
-    background-color: aliceblue;
+    background-color: rgb(40, 29, 2);
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     perspective: 1000px;
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.363);
 }
 .shake {
@@ -74,15 +74,15 @@ body {
 }
 
 .card {
-    height: 100px;
-    width: 91px;
-    background-color: rgb(50, 119, 248, 0.651);
-    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+    background-image: url('Images/Acertijo.jpg');
+    border-radius: 4px;
     margin: 0px 10px;
     position: relative;
     transform-style: preserve-3d;
     transition: all 0.8s ease;
-    box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.363);
+    box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
@@ -96,12 +96,16 @@ body {
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 4px;
+}
+.front img {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .card .front {
-    color: aliceblue;
-    background-color:rgba(50, 119, 248, 0.651);
+    background-image: url('Images/Acertijo.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,14 +118,13 @@ body {
 }
 
 .card img {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     box-sizing: border-box;
-    padding: 18px;
 }
 
 .btn {
-    background-color: antiquewhite;
+    background-color: rgb(2, 2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,19 +135,19 @@ body {
     height: 70px;
     font-size: 1.6rem;
     left: calc(50% - 125px);
-    box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.363);
+    box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 #refresh, 
 #level1{
 width: 120px;
 height: 50px;
-border:1px solid rgb(50, 119, 248);
-border-radius: 10px;
+border:1px solid rgb(245, 248, 50);
+border-radius: 4px;
 margin: 0px 10px;
 display: flex;
 justify-content: center;
 align-items: center;
-color: rgba(50, 119, 248, 0.651);
+color: rgb(255, 221, 0);
 font-size: 1.4rem;
 font-weight: 600;
 cursor: pointer;
@@ -152,7 +155,7 @@ cursor: pointer;
 #refresh:hover, 
 #level1:hover{
     color: aliceblue;
-    background-color: rgba(50, 119, 248, 0.651);
+    background-color: rgba(255, 230, 0, 0.651);
 }
 
 .modal2 {
