@@ -13,7 +13,7 @@ body {
 .board{
     height: 480px;
     width: 460px;
-    background-color: rgb(40, 29, 2);
+    background-color: rgb(38, 28, 2);
     margin: auto;
     display: flex;
     justify-content: center;
