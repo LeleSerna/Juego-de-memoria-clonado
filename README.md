@@ -1,5 +1,5 @@
 # Memory-Game
-This is a memory game, created using HTML, CSS, and JavaScript.
+This is a memory game, created using HTML, CSS, and JavaScript. Re-factored.
 Rules of playing are:- 
  1. Click on any two card and they will flip,
  2. if they are of same kind then they will stay fliped otherwise they will fliped again.
